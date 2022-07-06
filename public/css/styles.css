@@ -1,0 +1,48 @@
+body{
+    width: 50vw;
+    margin: 0 auto;
+    color: #333;
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main{
+    flex-grow: 1;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(68, 64, 64);
+    text-decoration: none;
+    margin-right: 8px;
+}
+.form{
+    padding-top: 2rem;
+    height:3rem
+}
+form{
+    height: 100%;
+    
+}
+form input{
+    width: 40%;
+    height: 100%;
+    outline:1px solid rgb(68, 64, 64);
+    padding: 0 1rem;
+    border-width: 0;
+}
+form button{
+    background: transparent;
+    outline: 1px rgb(68, 64, 64) solid;
+    padding: .75em 1.5em;
+    border-width:0;
+    height:100%;
+    margin:0;
+    font-family: sans-serif;
+}
