@@ -51,14 +51,16 @@ app.get('/weather',(req,res)=>{
         if(error){
             return res.send({error})
         } 
-        forecast(latitude,longitude,(error,{currentTemp,currentFeels})=>{
+        forecast(latitude,longitude,(error,{currentTemp,currentFeels,description,isDay})=>{
             if(error){
                 return res.send({error}) 
             }
             res.send({
                 location,
                 currentFeels,
-                currentTemp
+                currentTemp,
+                description,
+                isDay
             })
         })
         

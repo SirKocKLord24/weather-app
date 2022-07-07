@@ -28,21 +28,47 @@ header a{
 }
 form{
     height: 100%;
+    width: max-content;
+    margin: 0 auto;
     
 }
 form input{
-    width: 40%;
+    width: 20vw;
     height: 100%;
     outline:1px solid rgb(68, 64, 64);
     padding: 0 1rem;
     border-width: 0;
 }
 form button{
-    background: transparent;
+    background: #333;
+    color: #fff;
     outline: 1px rgb(68, 64, 64) solid;
     padding: .75em 1.5em;
     border-width:0;
     height:100%;
     margin:0;
     font-family: sans-serif;
+}
+p{
+    font-size: 1.5rem;
+}
+.one{
+    text-align: center;
+}
+.card{
+    width: 30vw;
+    margin: 1em auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.none{
+    display: none;
+}
+.location{
+    text-align: center;
+    font-size: 1.25rem;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
 }
