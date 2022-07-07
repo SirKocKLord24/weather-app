@@ -1,5 +1,3 @@
-console.log('CLient side js')
-
 const form = document.querySelector('form')
 const messageOne = document.querySelector('.one')
 const messageTwo = document.querySelector('.two')
